@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Boosttoppers</title>
+<title>Boost Toppers</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
 body{
     margin:0;
     font-family:Arial, sans-serif;
+    background:#f4f6f9;
 }
 
 /* Navbar */
@@ -30,18 +31,27 @@ body{
     border-radius:5px;
 }
 
-/* Hero Section */
+/* Hero */
 .hero{
     text-align:center;
     padding:60px 20px;
     background:linear-gradient(to right,#203a43,#2c5364);
     color:white;
 }
-.hero img{
+.hero img.logo{
     width:100px;
 }
 .hero h1{
     font-size:40px;
+    margin:10px 0;
+}
+.ceo-section{
+    margin-top:30px;
+}
+.ceo-img{
+    width:150px;
+    border-radius:50%;
+    box-shadow:0 5px 15px rgba(0,0,0,0.4);
 }
 
 /* Footer */
@@ -73,7 +83,7 @@ body{
 
 <!-- Navbar -->
 <div class="navbar">
-    <div><b>Boosttoppers 🚀</b></div>
+    <div><b>Boost Toppers</b></div>
     <div>
         <a href="#">Blogs</a>
         <a href="#">Courses</a>
@@ -83,10 +93,15 @@ body{
 
 <!-- Hero Section -->
 <div class="hero">
-    <img src="logo.png">
-    <h1>Boosttoppers</h1>
+    <img src="logo.png" class="logo">
+    <h1>Boost Toppers</h1>
     <p>AI & Education Platform</p>
-    <p>Founder & CEO: Vikas Kumar</p>
+
+    <div class="ceo-section">
+        <img src="vikas.jpg" class="ceo-img">
+        <p><b>Founder & CEO</b></p>
+        <p>Vikas Kumar</p>
+    </div>
 </div>
 
 <!-- Footer -->
@@ -114,7 +129,7 @@ body{
     </div>
 
     <div class="bottom">
-        © 2026 Boosttoppers | All Rights Reserved
+        © 2026 Boost Toppers | All Rights Reserved
     </div>
 </div>
 
